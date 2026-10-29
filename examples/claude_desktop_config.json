@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "odoo": {
+      "command": "odoo-mcp-server",
+      "env": {
+        "ODOO_URL": "https://mycompany.odoo.com",
+        "ODOO_DB": "mycompany",
+        "ODOO_USERNAME": "assistant@mycompany.com",
+        "ODOO_API_KEY": "paste-your-api-key-here",
+        "ODOO_MCP_MODELS": "res.partner,sale.*,product.*,account.move"
+      }
+    }
+  }
+}

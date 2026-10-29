@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "odoo-staging": {
+      "command": "odoo-mcp-server",
+      "env": {
+        "ODOO_URL": "http://localhost:8069",
+        "ODOO_DB": "staging",
+        "ODOO_USERNAME": "admin",
+        "ODOO_API_KEY": "paste-your-api-key-here",
+        "ODOO_MCP_ALLOW_WRITE": "1",
+        "ODOO_MCP_DENY_MODELS": "account.*,hr.*"
+      }
+    }
+  }
+}
