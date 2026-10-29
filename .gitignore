@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Python build / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local configuration — never commit credentials
+.env
+*.local.json
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
